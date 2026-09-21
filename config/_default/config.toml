@@ -87,3 +87,4 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/mermaid"
     target = "assets/js/vendor/mermaid"
+    ignoreErrors = ["error-remote-getjson"]
